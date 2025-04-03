@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candice De Vera Brochure</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, lightblue, lightgreen, lightyellow);
+            text-align: center;
+            padding: 20px;
+        }
+        .brochure-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            margin: auto;
+        }
+        img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .download-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: lightgreen;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .download-btn:hover {
+            background: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="brochure-container">
+        <h2>Candice De Vera Brochure</h2>
+        <img src="C:\Users\FORSAL~1\AppData\Local\Temp\Rar$DIa10980.45545\1.png" alt="Brochure">
+        <img src="C:\Users\FORSAL~1\AppData\Local\Temp\Rar$DIa10980.40469\2.png" alt="Brochure">
+        <a href="brochure.pdf" download class="download-btn">Download Brochure</a>
+    </div>
+</body>
+</html>
